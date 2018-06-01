@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBFD5CE20C1A8D200176EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD5CD20C1A8D200176EDE /* AppDelegate.swift */; };
+		FBBFD5D020C1A8D200176EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD5CF20C1A8D200176EDE /* ViewController.swift */; };
+		FBBFD5D320C1A8D200176EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBFD5D120C1A8D200176EDE /* Main.storyboard */; };
+		FBBFD5D520C1A8D400176EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBFD5D420C1A8D400176EDE /* Assets.xcassets */; };
+		FBBFD5D820C1A8D400176EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBFD5D620C1A8D400176EDE /* LaunchScreen.storyboard */; };
+		FBBFD5E320C1A8D400176EDE /* Avengers2WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD5E220C1A8D400176EDE /* Avengers2WatchTests.swift */; };
+		FBBFD5EE20C1A8D400176EDE /* Avengers2WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBFD5ED20C1A8D400176EDE /* Avengers2WatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBBFD5DF20C1A8D400176EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBFD5C220C1A8D200176EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBFD5C920C1A8D200176EDE;
+			remoteInfo = Avengers2Watch;
+		};
+		FBBFD5EA20C1A8D400176EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBFD5C220C1A8D200176EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBFD5C920C1A8D200176EDE;
+			remoteInfo = Avengers2Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBBFD5CA20C1A8D200176EDE /* Avengers2Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avengers2Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBFD5CD20C1A8D200176EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBBFD5CF20C1A8D200176EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBBFD5D220C1A8D200176EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBBFD5D420C1A8D400176EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBFD5D720C1A8D400176EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBBFD5D920C1A8D400176EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBFD5DE20C1A8D400176EDE /* Avengers2WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avengers2WatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBFD5E220C1A8D400176EDE /* Avengers2WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avengers2WatchTests.swift; sourceTree = "<group>"; };
+		FBBFD5E420C1A8D400176EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBFD5E920C1A8D400176EDE /* Avengers2WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avengers2WatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBFD5ED20C1A8D400176EDE /* Avengers2WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avengers2WatchUITests.swift; sourceTree = "<group>"; };
+		FBBFD5EF20C1A8D400176EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBFD5C720C1A8D200176EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5DB20C1A8D400176EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5E620C1A8D400176EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBFD5C120C1A8D200176EDE = {
+			isa = PBXGroup;
+			children = (
+				FBBFD5CC20C1A8D200176EDE /* Avengers2Watch */,
+				FBBFD5E120C1A8D400176EDE /* Avengers2WatchTests */,
+				FBBFD5EC20C1A8D400176EDE /* Avengers2WatchUITests */,
+				FBBFD5CB20C1A8D200176EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBFD5CB20C1A8D200176EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFD5CA20C1A8D200176EDE /* Avengers2Watch.app */,
+				FBBFD5DE20C1A8D400176EDE /* Avengers2WatchTests.xctest */,
+				FBBFD5E920C1A8D400176EDE /* Avengers2WatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBFD5CC20C1A8D200176EDE /* Avengers2Watch */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFD5CD20C1A8D200176EDE /* AppDelegate.swift */,
+				FBBFD5CF20C1A8D200176EDE /* ViewController.swift */,
+				FBBFD5D120C1A8D200176EDE /* Main.storyboard */,
+				FBBFD5D420C1A8D400176EDE /* Assets.xcassets */,
+				FBBFD5D620C1A8D400176EDE /* LaunchScreen.storyboard */,
+				FBBFD5D920C1A8D400176EDE /* Info.plist */,
+			);
+			path = Avengers2Watch;
+			sourceTree = "<group>";
+		};
+		FBBFD5E120C1A8D400176EDE /* Avengers2WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFD5E220C1A8D400176EDE /* Avengers2WatchTests.swift */,
+				FBBFD5E420C1A8D400176EDE /* Info.plist */,
+			);
+			path = Avengers2WatchTests;
+			sourceTree = "<group>";
+		};
+		FBBFD5EC20C1A8D400176EDE /* Avengers2WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFD5ED20C1A8D400176EDE /* Avengers2WatchUITests.swift */,
+				FBBFD5EF20C1A8D400176EDE /* Info.plist */,
+			);
+			path = Avengers2WatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBFD5C920C1A8D200176EDE /* Avengers2Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBFD5F220C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2Watch" */;
+			buildPhases = (
+				FBBFD5C620C1A8D200176EDE /* Sources */,
+				FBBFD5C720C1A8D200176EDE /* Frameworks */,
+				FBBFD5C820C1A8D200176EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avengers2Watch;
+			productName = Avengers2Watch;
+			productReference = FBBFD5CA20C1A8D200176EDE /* Avengers2Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBBFD5DD20C1A8D400176EDE /* Avengers2WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBFD5F520C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2WatchTests" */;
+			buildPhases = (
+				FBBFD5DA20C1A8D400176EDE /* Sources */,
+				FBBFD5DB20C1A8D400176EDE /* Frameworks */,
+				FBBFD5DC20C1A8D400176EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBFD5E020C1A8D400176EDE /* PBXTargetDependency */,
+			);
+			name = Avengers2WatchTests;
+			productName = Avengers2WatchTests;
+			productReference = FBBFD5DE20C1A8D400176EDE /* Avengers2WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBBFD5E820C1A8D400176EDE /* Avengers2WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBFD5F820C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2WatchUITests" */;
+			buildPhases = (
+				FBBFD5E520C1A8D400176EDE /* Sources */,
+				FBBFD5E620C1A8D400176EDE /* Frameworks */,
+				FBBFD5E720C1A8D400176EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBFD5EB20C1A8D400176EDE /* PBXTargetDependency */,
+			);
+			name = Avengers2WatchUITests;
+			productName = Avengers2WatchUITests;
+			productReference = FBBFD5E920C1A8D400176EDE /* Avengers2WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBFD5C220C1A8D200176EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					FBBFD5C920C1A8D200176EDE = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					FBBFD5DD20C1A8D400176EDE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FBBFD5C920C1A8D200176EDE;
+					};
+					FBBFD5E820C1A8D400176EDE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FBBFD5C920C1A8D200176EDE;
+					};
+				};
+			};
+			buildConfigurationList = FBBFD5C520C1A8D200176EDE /* Build configuration list for PBXProject "Avengers2Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBFD5C120C1A8D200176EDE;
+			productRefGroup = FBBFD5CB20C1A8D200176EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBFD5C920C1A8D200176EDE /* Avengers2Watch */,
+				FBBFD5DD20C1A8D400176EDE /* Avengers2WatchTests */,
+				FBBFD5E820C1A8D400176EDE /* Avengers2WatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBFD5C820C1A8D200176EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBFD5D820C1A8D400176EDE /* LaunchScreen.storyboard in Resources */,
+				FBBFD5D520C1A8D400176EDE /* Assets.xcassets in Resources */,
+				FBBFD5D320C1A8D200176EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5DC20C1A8D400176EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5E720C1A8D400176EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBFD5C620C1A8D200176EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBFD5D020C1A8D200176EDE /* ViewController.swift in Sources */,
+				FBBFD5CE20C1A8D200176EDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5DA20C1A8D400176EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBFD5E320C1A8D400176EDE /* Avengers2WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFD5E520C1A8D400176EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBFD5EE20C1A8D400176EDE /* Avengers2WatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBFD5E020C1A8D400176EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBFD5C920C1A8D200176EDE /* Avengers2Watch */;
+			targetProxy = FBBFD5DF20C1A8D400176EDE /* PBXContainerItemProxy */;
+		};
+		FBBFD5EB20C1A8D400176EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBFD5C920C1A8D200176EDE /* Avengers2Watch */;
+			targetProxy = FBBFD5EA20C1A8D400176EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBBFD5D120C1A8D200176EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBFD5D220C1A8D200176EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBBFD5D620C1A8D400176EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBFD5D720C1A8D400176EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBFD5F020C1A8D400176EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBFD5F120C1A8D400176EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBFD5F320C1A8D400176EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2Watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBFD5F420C1A8D400176EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2Watch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBBFD5F620C1A8D400176EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2WatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2WatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avengers2Watch.app/Avengers2Watch";
+			};
+			name = Debug;
+		};
+		FBBFD5F720C1A8D400176EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2WatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2WatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avengers2Watch.app/Avengers2Watch";
+			};
+			name = Release;
+		};
+		FBBFD5F920C1A8D400176EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2WatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2WatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avengers2Watch;
+			};
+			name = Debug;
+		};
+		FBBFD5FA20C1A8D400176EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S43QRZH5C6;
+				INFOPLIST_FILE = Avengers2WatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Avengers2WatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avengers2Watch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBFD5C520C1A8D200176EDE /* Build configuration list for PBXProject "Avengers2Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBFD5F020C1A8D400176EDE /* Debug */,
+				FBBFD5F120C1A8D400176EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBFD5F220C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBFD5F320C1A8D400176EDE /* Debug */,
+				FBBFD5F420C1A8D400176EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBFD5F520C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBFD5F620C1A8D400176EDE /* Debug */,
+				FBBFD5F720C1A8D400176EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBFD5F820C1A8D400176EDE /* Build configuration list for PBXNativeTarget "Avengers2WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBFD5F920C1A8D400176EDE /* Debug */,
+				FBBFD5FA20C1A8D400176EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBFD5C220C1A8D200176EDE /* Project object */;
+}
