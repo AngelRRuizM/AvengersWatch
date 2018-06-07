@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14031"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Avengers2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="0Bg-Be-AGm">
+                            <items>
+                                <tableRow identifier="AvengerRow" id="H24-aO-XUS" customClass="AvengerRow" customModule="Avengers2_WatchKit_App_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="3T2-X8-0PU">
+                                        <items>
+                                            <label alignment="left" text="Avenger Name" textAlignment="center" id="268-v5-ibL">
+                                                <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="name" destination="268-v5-ibL" id="ZKM-XA-5oS"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="0Bg-Be-AGm" id="XHu-cB-nVS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="82" y="270"/>
+        </scene>
+        <!--showDetails-->
+        <scene sceneID="bqn-ze-scK">
+            <objects>
+                <controller identifier="showDetails" id="jLl-8X-e1g" customClass="DetailInterfaceController" customModule="Avengers2_WatchKit_App_Extension">
+                    <items>
+                        <imageView alignment="left" image="hawkeye" id="KPl-CJ-giV"/>
+                        <label alignment="left" text="Strength" id="Dxg-Tb-iCH"/>
+                        <label alignment="left" text="Weakness" id="0r5-qq-iGw"/>
+                        <label alignment="left" text="Swagger" id="68l-qk-6Wk"/>
+                        <label alignment="left" text="%" id="MHS-5N-eZZ"/>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="KPl-CJ-giV" id="kOI-IJ-90a"/>
+                        <outlet property="strength" destination="Dxg-Tb-iCH" id="Drx-cQ-oPy"/>
+                        <outlet property="swagger" destination="MHS-5N-eZZ" id="wSa-Hv-qve"/>
+                        <outlet property="weakness" destination="0r5-qq-iGw" id="5FF-Sp-qBA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="284" y="282"/>
+        </scene>
+    </scenes>
+</document>
